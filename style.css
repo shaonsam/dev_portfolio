@@ -5,13 +5,17 @@ body{
 h1{
     font-size: 50px;
 }
+
+h2{
+    font-size: 40px;
+}
 .oran{
     color: orange;
 }
 .green{
     color: green;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 200px;
 }
@@ -19,6 +23,34 @@ section{
     width: 50%;
     padding-left: 5%;
 }
+.exp-itme{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 40px gray;
+    
+}
+
+#web-dev{
+    border-image: linear-gradient(cyan, blue);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+
+#stack-exp{
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+
+.exp-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .half-width img{
     width: 80%;
 }
@@ -38,4 +70,7 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+footer p {
+    text-align: center;
 }
